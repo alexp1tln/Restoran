@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Didot", "Bodoni Moda", ui-serif, Georgia, serif;
+  --font-serif: "Didot", "Bodoni Moda", ui-serif, Georgia, serif;
+  --animate-spin-slow: spin 10s linear infinite;
+}
+
+body {
+  @apply bg-[#0F0F0F] text-[#EAEAEA] antialiased selection:bg-[#FFB6C1]/20 selection:text-[#FFB6C1] overscroll-none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

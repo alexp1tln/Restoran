@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: la-rose-paris
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    autoDeploy: true
